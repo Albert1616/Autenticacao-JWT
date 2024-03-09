@@ -23,6 +23,7 @@ function FormLogin() {
                 </Link>
             </Button>
         </form>
+        <p>Ainda não possui conta? <Link href='signin' className='text-blue-700 underline'>Faça seu registro</Link></p>
     </div>
   )
 }
