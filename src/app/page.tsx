@@ -10,8 +10,8 @@ export default function Home() {
         <h1>Autenticação JWT</h1>
         <p>Sistema de login funcional, feito ultilizando token JWT</p>
         <div className="flex gap-3 mt-6 text-blue-500">
-          <Link href='pagFree' className="hover:text-blue-700">Página sem autenticação necessária</Link>
-          <Link href='pagLock' className="hover:text-blue-700">Página com autenticação necessária</Link>
+          <Link href='pageFree' className="hover:text-blue-700">Página sem autenticação necessária</Link>
+          <Link href='pageLock' className="hover:text-blue-700">Página com autenticação necessária</Link>
         </div>
       </div>
     </div>
